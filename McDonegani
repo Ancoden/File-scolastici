@@ -1,0 +1,36 @@
+#El Anqoud Rayan
+print("Benvenuti al McDonegani"\n)
+print("Offerta speciale: con ordine Big Mac patatine e caffè, vi verrà dato un gadget in omaggio")
+print("Ecco i la vostra scelta per i primi: "\n)
+print("digita 1 per big mac,2 per crispy,3 per mc chicken")
+omaggio = 0
+scelta=int(input())
+if scelta==1:
+spesa=spesa+7,00
+omaggio++;
+elif scelta==2:
+spesa=spesa+5,80
+elif scelta==3:
+spesa=spesa+4,80
+print("Scegliere il secondo: "\n)
+print("digita 1 patatine,2 per nuggets,3 per chicken wings")
+scelta=int(input())
+if scelta==1:
+spesa=spesa+3,00
+omaggio++;
+elif scelta==2:
+spesa=spesa+4,80
+elif scelta==3:
+spesa=spesa+3,50
+print("Scegliere un dessert: "\n)
+print("digita 1 caffè,2 per mc flurry,3 per milk shake")
+scelta=int(input())
+if scelta==1:
+spesa=spesa+1,20
+omaggio++;
+elif scelta==2:
+spesa=spesa+2,80
+elif scelta==3:
+spesa=spesa+3,50
+if omaggio==3 && spesa==11,20
+print("Complimenti hai scelto come ordine Big Mac patatine e caffè, e hai diritto al gadget che potrai ritirare gratuitamente")
